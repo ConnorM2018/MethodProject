@@ -9,6 +9,7 @@ public class Main {
         multiply(2,4);
         System.out.println(divideDouble(5.25,3.09));
         System.out.println(maxNumber(5,9));
+        System.out.println(wordSwitch("Hello","World"));
     }
 
     public static void printHelloWorld(){
@@ -31,5 +32,9 @@ public class Main {
         else{
             return secondNumber;
         }
+    }
+    public static String wordSwitch(String firstWord, String secondWord){
+        String secondFirst = secondWord+" "+firstWord;
+        return secondFirst;
     }
 }
