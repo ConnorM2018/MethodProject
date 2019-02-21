@@ -8,6 +8,7 @@ public class Main {
         printHello("Universe");
         multiply(2,4);
         System.out.println(divideDouble(5.25,3.09));
+        System.out.println(maxNumber(5,9));
     }
 
     public static void printHelloWorld(){
@@ -22,5 +23,13 @@ public class Main {
     public static double divideDouble(double firstNumber, double secondNumber){
         double answer = firstNumber/secondNumber;
         return answer;
+    }
+    public static double maxNumber(double firstNumber, double secondNumber){
+        if(firstNumber>secondNumber){
+            return firstNumber;
+        }
+        else{
+            return secondNumber;
+        }
     }
 }
