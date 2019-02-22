@@ -6,7 +6,7 @@ public class Main {
 
         printHelloWorld();
         printHello("Universe");
-        multiply(2,4);
+        System.out.println(multiply(2,4));
         System.out.println(divideDouble(5.25,3.09));
         System.out.println(maxNumber(5,9));
         System.out.println(wordSwitch("Hello","World"));
@@ -17,9 +17,11 @@ public class Main {
     }
     public static void printHello(String noun){
         System.out.println("Hello "+noun);
+
     }
-    public static void multiply(int firstNumber, int secondNumber){
-        System.out.println(firstNumber*secondNumber);
+    public static int multiply(int firstNumber, int secondNumber){
+        int answer = firstNumber*secondNumber;
+        return answer;
     }
     public static double divideDouble(double firstNumber, double secondNumber){
         double answer = firstNumber/secondNumber;
