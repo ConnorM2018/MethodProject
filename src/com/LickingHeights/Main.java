@@ -15,19 +15,26 @@ public class Main {
     public static void printHelloWorld(){
         System.out.println("Hello World");
     }
+
+
     public static String printHello(String noun){
         String result = "Hello "+noun;
         return result;
-
     }
+
+
     public static int multiply(int firstNumber, int secondNumber){
         int answer = firstNumber*secondNumber;
         return answer;
     }
+
+
     public static double divideDouble(double firstNumber, double secondNumber){
         double answer = firstNumber/secondNumber;
         return answer;
     }
+
+
     public static double maxNumber(double firstNumber, double secondNumber){
         if(firstNumber>secondNumber){
             return firstNumber;
@@ -36,6 +43,8 @@ public class Main {
             return secondNumber;
         }
     }
+
+
     public static String wordSwitch(String firstWord, String secondWord){
         String secondFirst = secondWord+" "+firstWord;
         return secondFirst;
